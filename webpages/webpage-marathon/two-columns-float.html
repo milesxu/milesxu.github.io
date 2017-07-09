@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Miles Xu">
+  <meta name="description" content="A web page with two columns">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      min-width: 600px;
+    }
+
+    nav {
+      text-align: center;
+      height: 36px;
+      line-height: 36px;
+      border: 1px solid hsl(0, 0%, 64%);
+    }
+
+    aside {
+      float: left;
+      width: 360px;
+      height: calc(100% - 36px - 36px);
+      background-color: hsl(0, 0%, 96%);
+      border-right: 1px solid hsl(0, 0%, 88%);
+    }
+
+    main {
+      padding: 0 36px;
+      padding-left: 396px;
+    }
+    footer{
+      clear: both;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      background-color: hsl(0, 0%, 96%)
+    }
+  </style>
+  <title>Two columns page</title>
+</head>
+
+<body>
+  <nav>挪威的森林</nav>
+  <aside>&nbsp;</aside>
+  <main>
+    <p>僕は三十七歳で、そのときボーイング747のシートに座っていた。その巨大な飛行機はぶ厚い雨雲をくぐり抜けて降下し、ハンブルク空港に着陸しようとしているところだった。十一月の冷ややかな雨が大地を暗く染め、雨合羽を着た整備工たちや、のっぺりとした空港ビルの上に立った旗や、BMWの広告板やそんな何もかもをフランドル派の陰うつな絵の背景のように見せていた。やれやれ、またドイツか、と僕は思った。</p>
+    <p>我今年三十七岁。现在，我正坐在波音七四七的机舱里。这架硕大无比的飞机正穿过厚厚的乌云层往下俯冲，准备降落在汉堡机场。十一月冷冽的雨湮得大地一片雾蒙蒙的。穿着雨衣的整修工、整齐划一的机场大厦上竖着的旗、BMW的大型广告牌，这一切的一切看来都像是法兰德斯派画里阴郁的背景。唉！又来到德国了。</p>
+  </main>
+  <footer>村上春树</footer>
+</body>
+
+</html>
