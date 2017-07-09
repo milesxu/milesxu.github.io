@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sidebar-wrapper {
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+}
+
+.main-wrapper {
+  padding: 60px;
+  padding-right: 300px;
+}
